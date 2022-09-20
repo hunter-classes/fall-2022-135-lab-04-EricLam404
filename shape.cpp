@@ -58,6 +58,9 @@ std::string lower(int length){
 std::string upper(int length){
     std::string str;
     for(int i = length; i > 0; i--){
+        for(int k = 0; k < length - i; k++){
+            str += " ";
+        }
         for(int j = 0; j < i; j++){
             str += "*";
         }

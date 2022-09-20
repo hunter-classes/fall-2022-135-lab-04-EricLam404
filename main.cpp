@@ -19,8 +19,8 @@ int main()
     std::cout << lower(6);
     std::cout << "\n------------------\n";
 
-    std::cout << "upper(6):\n";
-    std::cout << upper(6);
+    std::cout << "upper(5):\n";
+    std::cout << upper(5);
     std::cout << "\n------------------\n";
 
     std::cout << "trapezoid(13, 7):\n";
